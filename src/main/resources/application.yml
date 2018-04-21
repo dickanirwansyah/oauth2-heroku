@@ -1,0 +1,26 @@
+#server context path
+server:
+  context-path: /spring-resource-server
+
+#JDBC CONFIGURATION
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springoauth2
+    username: springoauth2
+    password: root
+
+---
+#spring jpa configuration
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+#Basic security enable
+security:
+  basic:
+    enabled: false
+  oauth2:
+    resource:
+      filter-order: 3
