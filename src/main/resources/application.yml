@@ -1,13 +1,14 @@
 #server context path
 server:
   context-path: /spring-resource-server
+  port: 8080
 
 #JDBC CONFIGURATION
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/springoauth2
-    username: springoauth2
-    password: root
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/springoauth2
+#    username: springoauth2
+#    password: root
 
 ---
 #spring jpa configuration

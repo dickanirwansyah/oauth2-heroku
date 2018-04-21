@@ -53,6 +53,17 @@
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
 		</dependency>
+		<!-- CLOUD CONNECTOR -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cloud-connectors</artifactId>
+		</dependency>
+		<!-- flyaway database -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+		<!-- CLOUD CONNECTOR -->
 		<!-- oauth2 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
