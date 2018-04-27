@@ -12,7 +12,7 @@ values ('usr-001', 'Muhammad Dicka Nirwansyah', 'dickanirwansyah', 'dickanirwans
 '$2a$10$epYzM2vJVX/fVkq8R5GtYeBP0kwAlYrlQpwG2k/yIu7ZlNk03fQEG', true);
 
 insert into tabel_user(iduser, name, username, email, password, activated)
-values ('usr-002', 'Denada Rosa Florina', 'denaflorina', 'denadarosa@gmail.com',
+values ('usr-002', 'Dina Florina', 'florina', 'florina@gmail.com',
 '$2a$10$epYzM2vJVX/fVkq8R5GtYeBP0kwAlYrlQpwG2k/yIu7ZlNk03fQEG', true);
 
 insert into tabel_user_role(iduser, idrole) values ('usr-001', 'role-001');
